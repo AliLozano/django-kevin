@@ -34,6 +34,13 @@ node_modules
 *.sublime-project
 *.sublime-workspace
 
+# IDE files #
+#############
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries
+.idea/shelf
+
 # Compiled source #
 ###################
 *.com
@@ -73,3 +80,7 @@ node_modules
 .Trashes
 ehthumbs.db
 Thumbs.db
+
+# Include files #
+#################
+!**/css/build/.gitkeep
